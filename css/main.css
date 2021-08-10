@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Oswald, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li p {
+  font-family: Karma, serif;
+}
+
+li h2 {
+  color: #987ffa;
+}
