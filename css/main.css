@@ -1,11 +1,16 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Oswald, sans-serif;
+  font-family: Karma, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 ol {
@@ -25,7 +30,8 @@ li {
   border-color: #987ffa;
   border-width: 3px;
   border-radius: 6px;
-  align-items: center;
+  text-align: center;
+  padding: 1rem;
 }
 
 li p {
@@ -34,25 +40,60 @@ li p {
   font-size: 1.4rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 li h2 {
+  font-family: Oswald, sans-serif;
   color: #6f00e7;
   font-weight: bold;
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 1.1rem;
 }
 
 img {
-  width: 100%;
   max-width: 15em;
 }
 
 div {
-  color: white;
-  background-color: #6f00e7;
-  border-radius: 3em;
   display: flex;
   flex-direction: row;
-  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.favourite, .share {
+  flex-direction: row;
+  align-self: flex-end;
+  justify-content: space-around;
+}
+
+.cart {
+  background-color: #6f00e7;
+  border-radius: 3em;
+  margin-right: auto;
+  padding: .5rem;
+}
+
+.cart img {
+  vertical-align: middle;
+  padding-left: 1rem;
+  padding-right: .5rem;
+}
+
+span {
+  font-family: Oswald, sans-serif;
+  padding-right: 1rem;
+}
+
+.share {
+  padding-right: .5rem;
+  padding-left: .75rem;
 }
