@@ -8,20 +8,51 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-}
-
 ol {
   list-style: none;
+  padding: 0;
+  gap: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+ol li {
+  align-items: center;
+}
+
+li {
+  border-style: solid;
+  border-color: #987ffa;
+  border-width: 3px;
+  border-radius: 6px;
+  align-items: center;
+}
+
 li p {
   font-family: Karma, serif;
+  text-align: center;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 li h2 {
-  color: #987ffa;
+  color: #6f00e7;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  max-width: 15em;
+}
+
+div {
+  color: white;
+  background-color: #6f00e7;
+  border-radius: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
